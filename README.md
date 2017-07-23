@@ -1,5 +1,7 @@
 # GPIOCompressor for CraftBeerPi
 
+This plugin adds Actors for controlling compressors (like refridgerators/freezers). To prevent damage to the compressor, you should not turn the compressor on and off repeatedly. It's best to have a delay between cycles. This actor allows for that delay.
+
 There are two types of compressor
 - GPIOCompressor: A standard GPIO output compressoror
 - RelayCompressor: A GPIO compressor with inverted output
