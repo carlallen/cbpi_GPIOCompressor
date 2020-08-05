@@ -21,7 +21,7 @@ class Compressor(object):
             super(Compressor, self).on(power)
             self.delayed = False
         else:
-            print "Delaying Turing on Compressor"
+            print("Delaying Turing on Compressor")
             self.delayed = True
 
     def off(self):
